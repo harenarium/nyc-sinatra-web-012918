@@ -8,4 +8,4 @@ if defined?(ActiveRecord::Migrator) && ActiveRecord::Migrator.needs_migration?
 end
 
 use LandmarksController
-run ApplicationController
+run FiguresController
